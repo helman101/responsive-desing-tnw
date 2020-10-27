@@ -117,7 +117,7 @@ a {
   justify-content: space-around;
 }
 
-.cards {
+.dashboard .cards {
   width: 98%;
   height: 30%;
   margin: 0 auto;
@@ -185,9 +185,10 @@ a {
 
 /* LATEST NEWS SECTION */
 .latestnews {
+  margin-top: 7%;
   display: flex;
   flex-direction: column;
-  font-family: 'ARS Maquette';
+  font-family: 'ARS Maquette', Helvetica;
 }
 
 
@@ -248,7 +249,7 @@ drop-shadow(.5rem .5rem 1rem #e23)
 .latestnews .cards {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .latestnews div {
@@ -290,8 +291,8 @@ drop-shadow(.5rem .5rem 1rem #e23)
 }
 
 .orange-headings {
-  font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
+  font-weight: bolder;
   color: tomato;
 }
 
