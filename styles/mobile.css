@@ -1,10 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 a {
   text-decoration: none;
+}
+
+body {
+  margin-right: 10px;
 }
 
 @font-face {
@@ -78,6 +77,28 @@ a {
 li {
   list-style: none;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ########################## */
+
+/* ##### NAVBAR SECTION ##### */
+
+/* ########################## */
 
 .nav-bar {
   position: fixed;
@@ -186,22 +207,26 @@ li {
 
 
 
-/* LATEST NEWS SECTION */
+
+
+
+
+
+
+
+
+/* ############################### */
+
+/* ##### LATEST NEWS SECTION ##### */
+
+/* ############################### */
+
 .latestnews {
   margin-top: 7%;
   display: flex;
   flex-direction: column;
   font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
 }
-
-
-/* .latestnews img {
-      max-height: 100px;
-      max-width: 100px;
-      image-rendering: optimizeSpeed;
-      object-fit: cover;
-      object-position: 20% 10%;
-  } */
 
 .latestnews .img1,
 .latestnews .img2,
@@ -308,6 +333,127 @@ li {
   font-weight: 900;
   font-size: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ################################## */
+
+/* ##### LATEST FUNDING SECTION ##### */
+
+/* ########################## ####### */
+
+.latestfunding {
+  margin-top: 7%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.latestfunding .options {
+  color: tomato;
+}
+
+.latestfunding a {
+  padding: 5px;
+}
+
+.latestfunding .options:hover {
+  color: black;
+}
+
+.latestfunding .cards {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.latestfunding .cards img {
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+}
+
+.latestfunding .cards .name {
+  padding: 10px;
+  padding-left: 80px;
+  background-color: tomato;
+  color: white;
+  font-weight: bold;
+}
+
+.latestfunding .cards .amount {
+  padding: 15px;
+  padding-left: 80px;
+  background-color: #ffebe7;
+}
+
+.latestfunding .cards .amount p:first-child {
+  color: black;
+  font-weight: bold;
+}
+
+.latestfunding .cards .amount p:last-child {
+  color: grey;
+  font-weight: normal;
+  font-size: small;
+  text-transform: uppercase;
+}
+
+.latestfunding .cards .field {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-bottom: #ffebe7 solid 0.3rem;
+}
+
+.latestfunding .cards .summary,
+.latestfunding .cards .field {
+  background-color: #fffaf8;
+  padding: 15px;
+}
+
+.latestfunding .cards .summary a,
+.latestfunding .cards .field i,
+.latestfunding .cards .field span {
+  font-size: small;
+  color: #333;
+  padding: 7px;
+}
+
+.latestfunding .cards .summary span {
+  color: grey;
+}
+
+.latestfunding .cards .summary a,
+.latestfunding .cards .field i,
+.latestfunding .cards .field span:hover {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* ########################## */
+
+/* ##### FOOTER SECTION ##### */
+
+/* ########################## */
 
 .footer {
   display: flex;
