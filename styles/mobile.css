@@ -7,11 +7,77 @@ a {
   text-decoration: none;
 }
 
-body {
-  background-color: white;
+@font-face {
+  font-family: ARS Maquette;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url(/assets/Fonts/ars-maquette-regular.woff) format("woff"),
+    url(/assets/Fonts/ars-maquette-regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: ARS Maquette;
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url(/assets/Fonts/ars-maquette-regular-italic.woff) format("woff"),
+    url(/assets/Fonts/ars-maquette-regular-italic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: ARS Maquette;
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url(/assets/Fonts/ars-maquette-bold-alt.woff) format("woff"),
+    url(/assets/Fonts/ars-maquette-bold-alt.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Avalon;
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url(/assets/Fonts/avalon-bold.woff) format("woff"),
+    url(/assets/Fonts/avalon-bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: TNW-Avalon;
+  font-style: normal;
+  font-weight: 700;
+  src: url(/assets/Fonts/tnw-avalon-bold.ttf);
+}
+
+@font-face {
+  font-family: Shentox;
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url(/assets/Fonts/shentox-medium.woff) format("woff"),
+    url(/assets/Fonts/shentox-medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Trump;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/fonts/Trump-Gothic-East-Bold.ttf);
+}
+
+@font-face {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url(/assets/fonts/graphik/graphik-regular.woff) format("woff"),
+    url(/assets/fonts/graphik/graphik-regular.woff2) format("woff2");
 }
 
 .nav-bar {
+  position: fixed;
+  top: 0;
   background-color: white;
   width: 100%;
   height: 50px;
@@ -26,22 +92,93 @@ body {
   height: 100%;
 }
 
+
 .nav-menu {
   background-color: white;
-  margin-right: 2%;
-}
-
-.nav-menu a {
-  margin-left: 25px;
 }
 
 .nav-menu img {
   width: 20px;
+  padding: 10px;
+  border-left: lightgray 1px solid;
 }
 
 .logo {
   height: 35%;
   margin: 15%;
+}
+
+.dashboard {
+  margin-top: 50px;
+  font-family: 'graphik';
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cards {
+  width: 98%;
+  height: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: white;
+}
+
+.main-1 {
+  background:
+    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(/assets/images/header-image-microsoft-office-ipad-apps.png) 50% 50% no-repeat;
+  background-size: 100%;
+}
+
+.main-2 {
+  background:
+    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(/assets/images/tnw2020-feature_img-02.jpg) 50% 50% no-repeat;
+  background-size: 100%;
+}
+
+.main-3 {
+  background:
+    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(/assets/images/image-8-4-796x417.png) 50% 50% no-repeat;
+  background-size: 100%;
+}
+
+.cards-list {
+  list-style: none;
+  margin: 2%;
+}
+
+.data {
+  display: flex;
+  list-style: none;
+  font-family: 'ARS Maquette', Helvetica;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.data li {
+  margin-right: 10px;
+}
+
+.cards-title {
+  font-size: 1.2rem;
+  font-family: 'Avalon', sans-serif;
+}
+
+.cards-article {
+  font-size: 0.9rem;
+  font-family: 'Shentox', sans-serif;
+}
+
+.cards-icon {
+  width: 12px;
+  margin-right: 5px;
 }
 
 
