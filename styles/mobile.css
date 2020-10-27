@@ -59,6 +59,10 @@
    url(/assets/fonts/graphik/graphik-regular.woff2) format("woff2")
   }
 
+li {
+    list-style: none;
+}
+
 .nav-bar {
     position: fixed;
     top: 0;
@@ -101,7 +105,7 @@
     justify-content: space-around;
 }
 
-.cards {
+.dashboard .cards {
     width: 98%;
     height: 30%;
     margin: 0 auto;
@@ -132,13 +136,11 @@
 }
 
 .cards-list {
-    list-style: none;
     margin: 2%;
 }
 
 .data{
     display: flex;
-    list-style: none;
     font-family: 'ARS Maquette', Helvetica;
     font-size: 0.8rem;
     color: gray;
@@ -161,6 +163,47 @@
 .cards-icon {
     width: 12px;
     margin-right: 5px;
+}
+
+.footer {
+    background-color: rgb(32, 32, 32);
+    height: 160px;
+    width: 100%;
+}
+
+.bottombar {
+    background-color: rgb(24, 24, 24);
+    height: 120px;
+    width: 100%;
+}
+
+.social {
+    margin: 0 auto;
+    height: 50px;
+    width: 50%;
+}
+
+.social ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social li {
+    background: rgb(66, 66, 66);
+    background-size: 70%;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+}
+
+.links ul {
+    display: flex;
+}
+
+.links li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
 }
 
 
