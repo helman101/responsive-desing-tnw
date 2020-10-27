@@ -8,7 +8,7 @@ a {
 }
 
 @font-face {
-  font-family: ARS Maquette;
+  font-family: 'ARS Maquette';
   font-style: normal;
   font-weight: 400;
   src:
@@ -17,7 +17,7 @@ a {
 }
 
 @font-face {
-  font-family: ARS Maquette;
+  font-family: 'ARS Maquette';
   font-style: italic;
   font-weight: 400;
   src:
@@ -26,7 +26,7 @@ a {
 }
 
 @font-face {
-  font-family: ARS Maquette;
+  font-family: 'ARS Maquette';
   font-style: normal;
   font-weight: 700;
   src:
@@ -35,7 +35,7 @@ a {
 }
 
 @font-face {
-  font-family: Avalon;
+  font-family: 'Avalon';
   font-style: normal;
   font-weight: 700;
   src:
@@ -44,14 +44,14 @@ a {
 }
 
 @font-face {
-  font-family: TNW-Avalon;
+  font-family: 'TNW-Avalon';
   font-style: normal;
   font-weight: 700;
   src: url(/assets/Fonts/tnw-avalon-bold.ttf);
 }
 
 @font-face {
-  font-family: Shentox;
+  font-family: 'Shentox';
   font-style: normal;
   font-weight: 500;
   src:
@@ -60,19 +60,23 @@ a {
 }
 
 @font-face {
-  font-family: Trump;
+  font-family: 'Trump';
   font-style: normal;
   font-weight: 400;
   src: url(/assets/fonts/Trump-Gothic-East-Bold.ttf);
 }
 
 @font-face {
-  font-family: Graphik;
+  font-family: 'Graphik';
   font-style: normal;
   font-weight: 400;
   src:
     url(/assets/fonts/graphik/graphik-regular.woff) format("woff"),
     url(/assets/fonts/graphik/graphik-regular.woff2) format("woff2");
+}
+
+li {
+  list-style: none;
 }
 
 .nav-bar {
@@ -92,7 +96,6 @@ a {
   height: 100%;
 }
 
-
 .nav-menu {
   background-color: white;
 }
@@ -110,7 +113,7 @@ a {
 
 .dashboard {
   margin-top: 50px;
-  font-family: 'graphik';
+  font-family: 'Graphik', Georgia, 'Times New Roman', Times, serif;
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -157,7 +160,7 @@ a {
 .data {
   display: flex;
   list-style: none;
-  font-family: 'ARS Maquette', Helvetica;
+  font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
   font-size: 0.8rem;
   color: gray;
 }
@@ -188,7 +191,7 @@ a {
   margin-top: 7%;
   display: flex;
   flex-direction: column;
-  font-family: 'ARS Maquette', Helvetica;
+  font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -304,4 +307,79 @@ a {
 .main-headings {
   font-weight: 900;
   font-size: 25px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(32, 32, 32);
+  height: 160px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottombar {
+  background-color: rgb(24, 24, 24);
+  height: 120px;
+  width: 100%;
+}
+
+.social {
+  margin-top: 10px;
+  height: 50px;
+  width: 45%;
+}
+
+.social ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social li {
+  background-color: rgb(66, 66, 66);
+  background-size: 45%;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+}
+
+.links {
+  margin-top: 10px;
+  height: 50px;
+  width: 35%;
+}
+
+.links ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links li a {
+  font-family: 'Shentox', sans-serif;
+  font-size: 0.8rem;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(206, 206, 206);
+}
+
+.social-icon {
+  width: 20px;
+  padding: 10px;
+}
+
+.bottombar div {
+  font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.8rem;
+  height: 100%;
+  text-align: center;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-icon {
+  height: 10px;
 }
