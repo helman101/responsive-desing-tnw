@@ -3,9 +3,61 @@
     padding: 0;
 }
 
-body {
-    background-color: lightgray;
-}
+    @font-face {
+    font-family:ARS Maquette;
+    font-style:normal;
+    font-weight:400;
+    src: url(/assets/Fonts/ars-maquette-regular.woff) format("woff"),
+    url(/assets/Fonts/ars-maquette-regular.ttf) format("truetype")
+   }
+   @font-face {
+    font-family:ARS Maquette;
+    font-style:italic;
+    font-weight:400;
+    src: url(/assets/Fonts/ars-maquette-regular-italic.woff) format("woff"),
+    url(/assets/Fonts/ars-maquette-regular-italic.ttf) format("truetype")
+   }
+   @font-face {
+    font-family:ARS Maquette;
+    font-style:normal;
+    font-weight:700;
+    src: url(/assets/Fonts/ars-maquette-bold-alt.woff) format("woff"),
+    url(/assets/Fonts/ars-maquette-bold-alt.ttf) format("truetype")
+   }
+  @font-face {
+   font-family:Avalon;
+   font-style:normal;
+   font-weight:700;
+   src: url(/assets/Fonts/avalon-bold.woff) format("woff"),
+   url(/assets/Fonts/avalon-bold.ttf) format("truetype")
+  }
+  @font-face {
+   font-family:TNW-Avalon;
+   font-style:normal;
+   font-weight:700;
+   src:url(/assets/Fonts/tnw-avalon-bold.ttf)
+  }
+  @font-face {
+   font-family:Shentox;
+   font-style:normal;
+   font-weight:500;
+   src: url(/assets/Fonts/shentox-medium.woff) format("woff"),
+   url(/assets/Fonts/shentox-medium.ttf) format("truetype")
+  }
+  @font-face {
+   font-family:Trump;
+   font-style:normal;
+   font-weight:400;
+   src:url(/assets/fonts/Trump-Gothic-East-Bold.ttf)
+  }
+
+  @font-face {
+   font-family:Graphik;
+   font-style:normal;
+   font-weight:400;
+   src:url(/assets/fonts/graphik/graphik-regular.woff) format("woff"),
+   url(/assets/fonts/graphik/graphik-regular.woff2) format("woff2")
+  }
 
 .nav-bar {
     position: fixed;
@@ -27,15 +79,12 @@ body {
 
 .nav-menu {
     background-color:white;
-    margin-right: 2%;
-}
-
-.nav-menu a{
-    margin-left: 25px;
 }
 
 .nav-menu img{
     width: 20px;
+    padding: 10px;
+    border-left: lightgray 1px solid;
 }
 
 .logo {
@@ -45,7 +94,7 @@ body {
 
 .dashboard {
     margin-top: 50px;
-    background-color: brown;
+    font-family: 'graphik';
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -90,6 +139,9 @@ body {
 .data{
     display: flex;
     list-style: none;
+    font-family: 'ARS Maquette', Helvetica;
+    font-size: 0.8rem;
+    color: gray;
 }
 
 .data li {
@@ -98,12 +150,18 @@ body {
 
 .cards-title {
     font-size: 1.2rem;
+    font-family: 'Avalon', sans-serif;
 }
 
 .cards-article {
     font-size: 0.9rem;
+    font-family: 'Shentox', sans-serif;
 }
 
+.cards-icon {
+    width: 12px;
+    margin-right: 5px;
+}
 
 
 
