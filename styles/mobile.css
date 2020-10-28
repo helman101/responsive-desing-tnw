@@ -378,8 +378,7 @@ li {
     background-position: 50%;
     min-height: 100px;
     max-height: 135px;
-
-    /* width: 270px; */
+    max-width: 270px;
   }
 
   .latestnews .img1 {
@@ -925,118 +924,372 @@ li {
 
 /* ################################ */
 
-.latestdeals {
-  margin-top: 7%;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
+@media screen and (max-width: 750px) {
+  .latestdeals {
+    margin-top: 7%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .latestdeals .heading {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .latestdeals .img1,
+  .latestdeals .img2,
+  .latestdeals .img3,
+  .latestdeals .img4,
+  .latestdeals .img5,
+  .latestdeals .img6,
+  .latestdeals .img7,
+  .latestdeals .img8 {
+    height: 77px;
+    width: 77px;
+    background-size: cover;
+  }
+
+  .latestdeals .img1 {
+    background-image: url('./../assets/images/latestdeals_img1.jpg');
+  }
+
+  .latestdeals .img2 {
+    background-image: url('./../assets/images/latestdeals_img2.jpg');
+  }
+
+  .latestdeals .img3 {
+    background-image: url('./../assets/images/latestdeals_img3.jpg');
+  }
+
+  .latestdeals .img4 {
+    background-image: url('./../assets/images/latestdeals_img4.jpg');
+  }
+
+  .latestdeals .img5 {
+    background-image: url('./../assets/images/latestdeals_img5.jpg');
+  }
+
+  .latestdeals .img6 {
+    background-image: url('./../assets/images/latestdeals_img6.jpg');
+  }
+
+  .latestdeals .img7 {
+    background-image: url('./../assets/images/latestdeals_img7.jpg');
+  }
+
+  .latestdeals .img8 {
+    background-image: url('./../assets/images/latestdeals_img8.jpg');
+  }
+
+  .latestdeals .cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 0;
+  }
+
+  .latestdeals div {
+    margin-left: 10px;
+  }
+
+  .latestdeals .title {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .latestdeals .title:hover {
+    color: tomato;
+    cursor: pointer;
+  }
+
+  .latestdeals .credits,
+  .latestdeals li {
+    color: black;
+    text-decoration: none;
+  }
+
+  .latestdeals .credits:hover {
+    color: #555;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .latestdeals ul {
+    list-style: none;
+    line-height: 18px !important;
+    list-style-type: none;
+    margin-top: 5px;
+  }
+
+  .latestdeals li {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .latestdeals li:first-child {
+    color: #aaa;
+    font-size: small;
+    text-decoration: line-through;
+  }
 }
 
-.latestdeals .heading {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* ########################### TAB STYLING ############################ */
+@media screen and (min-width: 750px) {
+  .latestdeals {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .latestdeals .heading {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .latestdeals .img1,
+  .latestdeals .img2,
+  .latestdeals .img3,
+  .latestdeals .img4,
+  .latestdeals .img5,
+  .latestdeals .img6,
+  .latestdeals .img7,
+  .latestdeals .img8 {
+    background-size: cover;
+    background-position: 50%;
+    min-height: 100px;
+    max-height: 135px;
+  }
+
+  .latestdeals .img1 {
+    background-image: url('./../assets/images/latestdeals_img1.jpg');
+  }
+
+  .latestdeals .img2 {
+    background-image: url('./../assets/images/latestdeals_img2.jpg');
+  }
+
+  .latestdeals .img3 {
+    background-image: url('./../assets/images/latestdeals_img3.jpg');
+  }
+
+  .latestdeals .img4 {
+    background-image: url('./../assets/images/latestdeals_img4.jpg');
+  }
+
+  .latestdeals .img5 {
+    background-image: url('./../assets/images/latestdeals_img5.jpg');
+  }
+
+  .latestdeals .img6 {
+    background-image: url('./../assets/images/latestdeals_img6.jpg');
+  }
+
+  .latestdeals .img7 {
+    background-image: url('./../assets/images/latestdeals_img7.jpg');
+  }
+
+  .latestdeals .img8 {
+    background-image: url('./../assets/images/latestdeals_img8.jpg');
+  }
+
+  .latestdeals .cards-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .latestdeals .cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    min-height: 2vw;
+    max-width: 32%;
+  }
+
+  .latestdeals div {
+    /* margin-left: 10px; */
+  }
+
+  .latestdeals .title {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .latestdeals .title:hover {
+    color: tomato;
+    cursor: pointer;
+  }
+
+  .latestdeals .credits,
+  .latestdeals li {
+    color: black;
+    text-decoration: none;
+  }
+
+  .latestdeals .credits:hover {
+    color: #555;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .latestdeals ul {
+    list-style: none;
+    line-height: 18px !important;
+    list-style-type: none;
+    margin-top: 5px;
+  }
+
+  .latestdeals li {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .latestdeals li:first-child {
+    color: #aaa;
+    font-size: small;
+    text-decoration: line-through;
+  }
 }
 
-.latestdeals .img1,
-.latestdeals .img2,
-.latestdeals .img3,
-.latestdeals .img4,
-.latestdeals .img5,
-.latestdeals .img6,
-.latestdeals .img7,
-.latestdeals .img8 {
-  height: 77px;
-  width: 77px;
-  background-size: cover;
+
+
+@media screen and (min-width: 1024px) {
+  .latestdeals {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .latestdeals .heading {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .latestdeals .img1,
+  .latestdeals .img2,
+  .latestdeals .img3,
+  .latestdeals .img4,
+  .latestdeals .img5,
+  .latestdeals .img6,
+  .latestdeals .img7,
+  .latestdeals .img8 {
+    background-size: cover;
+    background-position: 50%;
+    min-height: 100px;
+    max-height: 135px;
+  }
+
+  .latestdeals .img1 {
+    background-image: url('./../assets/images/latestdeals_img1.jpg');
+  }
+
+  .latestdeals .img2 {
+    background-image: url('./../assets/images/latestdeals_img2.jpg');
+  }
+
+  .latestdeals .img3 {
+    background-image: url('./../assets/images/latestdeals_img3.jpg');
+  }
+
+  .latestdeals .img4 {
+    background-image: url('./../assets/images/latestdeals_img4.jpg');
+  }
+
+  .latestdeals .img5 {
+    background-image: url('./../assets/images/latestdeals_img5.jpg');
+  }
+
+  .latestdeals .img6 {
+    background-image: url('./../assets/images/latestdeals_img6.jpg');
+  }
+
+  .latestdeals .img7 {
+    background-image: url('./../assets/images/latestdeals_img7.jpg');
+  }
+
+  .latestdeals .img8 {
+    background-image: url('./../assets/images/latestdeals_img8.jpg');
+  }
+
+  .latestdeals .cards-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .latestdeals .cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    min-height: 2vw;
+    max-width: 23%;
+  }
+
+  .latestdeals div {
+    /* margin-left: 10px; */
+  }
+
+  .latestdeals .title {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .latestdeals .title:hover {
+    color: tomato;
+    cursor: pointer;
+  }
+
+  .latestdeals .credits,
+  .latestdeals li {
+    color: black;
+    text-decoration: none;
+  }
+
+  .latestdeals .credits:hover {
+    color: #555;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .latestdeals ul {
+    list-style: none;
+    line-height: 18px !important;
+    list-style-type: none;
+    margin-top: 5px;
+  }
+
+  .latestdeals li {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .latestdeals li:first-child {
+    color: #aaa;
+    font-size: small;
+    text-decoration: line-through;
+  }
 }
 
-.latestdeals .img1 {
-  background-image: url('./../assets/images/latestdeals_img1.jpg');
-}
 
-.latestdeals .img2 {
-  background-image: url('./../assets/images/latestdeals_img2.jpg');
-}
 
-.latestdeals .img3 {
-  background-image: url('./../assets/images/latestdeals_img3.jpg');
-}
-
-.latestdeals .img4 {
-  background-image: url('./../assets/images/latestdeals_img4.jpg');
-}
-
-.latestdeals .img5 {
-  background-image: url('./../assets/images/latestdeals_img5.jpg');
-}
-
-.latestdeals .img6 {
-  background-image: url('./../assets/images/latestdeals_img6.jpg');
-}
-
-.latestdeals .img7 {
-  background-image: url('./../assets/images/latestdeals_img7.jpg');
-}
-
-.latestdeals .img8 {
-  background-image: url('./../assets/images/latestdeals_img8.jpg');
-}
-
-.latestdeals .cards {
-  display: flex;
-  flex-direction: row;
-  margin-top: 15px;
-  margin-left: 0;
-}
-
-.latestdeals div {
-  margin-left: 10px;
-}
-
-.latestdeals .title {
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.latestdeals .title:hover {
-  color: tomato;
-  cursor: pointer;
-}
-
-.latestdeals .credits,
-.latestdeals li {
-  color: black;
-  text-decoration: none;
-}
-
-.latestdeals .credits:hover {
-  color: #555;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.latestdeals ul {
-  list-style: none;
-  line-height: 18px !important;
-  list-style-type: none;
-  margin-top: 5px;
-}
-
-.latestdeals li {
-  float: left;
-  margin-right: 10px;
-}
-
-.latestdeals li:first-child {
-  color: #aaa;
-  font-size: small;
-  text-decoration: line-through;
-}
 
 
 
