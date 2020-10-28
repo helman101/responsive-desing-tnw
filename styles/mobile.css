@@ -237,9 +237,11 @@ li {
 .latestnews .img6,
 .latestnews .img7,
 .latestnews .img8 {
-  height: 77px;
-  width: 77px;
+  min-height: 77px;
+  min-width: 77px;
   background-size: cover;
+  background-position: 50%;
+  margin-right: 10px;
 }
 
 .latestnews .img1 {
