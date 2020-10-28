@@ -6,6 +6,21 @@ main {
   margin: 30px;
 }
 
+.main-flex {
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+}
+
+@media screen and (min-width: 1024px) {
+.latestnews,
+.latestfunding,
+.posts,
+.latestdeals {
+  max-width: 1150px;
+}
+}
+
 @font-face {
   font-family: 'ARS Maquette';
   font-style: normal;
@@ -242,7 +257,6 @@ li {
     min-width: 77px;
     background-size: cover;
     background-position: 50%;
-    margin-right: 10px;
   }
 
   .latestnews .img1 {
@@ -361,10 +375,11 @@ li {
   .latestnews .img6,
   .latestnews .img7,
   .latestnews .img8 {
-    flex: 30%;
-    width: 100%;
     background-size: cover;
     background-position: 50%;
+    min-height: 100px;
+    max-height: 135px;
+    /* width: 270px; */
   }
 
   .latestnews .img1 {
@@ -403,18 +418,147 @@ li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    /* align-content: space-between; */
+    justify-content: space-between;
   }
 
   .latestnews .cards {
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
-    margin-right: 3%;
-    min-height: 25vw;
-    max-width: 30%;
+    margin-top: 25px;
+    min-height: 20vw;
+    max-width: 32%;
     
+  }
+
+  .latestnews .title {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .latestnews .title:hover {
+    color: tomato;
+    cursor: pointer;
+  }
+
+  .latestnews .credits,
+  .latestnews li {
+    color: #aaa;
+    text-decoration: none;
+  }
+
+  .latestnews .credits:hover {
+    color: #555;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .latestnews ul {
+    list-style: none;
+    line-height: 18px !important;
+    list-style-type: none;
+    margin-top: 5px;
+    font-size: small;
+  }
+
+  .latestnews li {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .orange-headings {
+    text-decoration: none;
+
+    /* changed by bash */
+    color: tomato;
+  }
+
+  .orange-headings:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .main-headings {
+    font-weight: 900;
+    font-size: 25px;
+  }
+}
+
+
+
+
+
+/* #######################DESKTOP STYLING######################## */
+
+
+@media screen and (min-width: 1024px) {
+  .latestnews {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .latestnews .img1,
+  .latestnews .img2,
+  .latestnews .img3,
+  .latestnews .img4,
+  .latestnews .img5,
+  .latestnews .img6,
+  .latestnews .img7,
+  .latestnews .img8 {
+    width: 100%;
+    background-size: cover;
+    background-position: 50%;
+    max-height: 135px;
+  }
+
+  .latestnews .img1 {
+    background-image: url('./../assets/images/uber-amsterdam-british-drivers-employee-gdpr-data-car-court-.jpg');
+  }
+
+  .latestnews .img2 {
+    background-image: url('./../assets/images/agile-marketing-gq-540x270.png');
+  }
+
+  .latestnews .img3 {
+    background-image: url('./../assets/images/Destruction-Allstars-516x270.jpg');
+  }
+
+  .latestnews .img4 {
+    background-image: url('./../assets/images/YouTubes-mobile-app.png');
+  }
+
+  .latestnews .img5 {
+    background-image: url('./../assets/images/image-7-5-840x628.png');
+  }
+
+  .latestnews .img6 {
+    background-image: url('./../assets/images/Elon-Musk-candy-Wonka-hed-736x552.jpg');
+  }
+
+  .latestnews .img7 {
+    background-image: url('./../assets/images/new-ai.png');
+  }
+
+  .latestnews .img8 {
+    background-image: url('./../assets/images/MIT-Roboat-II-Close-e1603453521207.jpeg');
+  }
+
+  .latestnews .cards-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .latestnews .cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    min-height: 0;
+    max-width: 23%;
   }
 
   .latestnews .title {
