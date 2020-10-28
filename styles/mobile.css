@@ -739,7 +739,7 @@ li {
 .posts {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .posts article {
@@ -923,9 +923,8 @@ li {
   border-bottom: #eee solid 0.1rem;
 }
 
-.lat-p {
-  font-weight: bold;
-}
+
+
 
 
 
@@ -1452,6 +1451,7 @@ li {
 
   .lat-li li {
     font-size: 0.8rem;
+
     /* margin: 20px 20px; */
     color: black;
   }
@@ -1524,6 +1524,7 @@ li {
 
   .lat-li li {
     font-size: 0.8rem;
+
     /* margin: 20px 20px; */
     color: black;
   }
