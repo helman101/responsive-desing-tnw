@@ -251,6 +251,7 @@ li {
 
   .latestnews .img2 {
     background-image: url('./../assets/images/agile-marketing-gq-540x270.png');
+    
   }
 
   .latestnews .img3 {
@@ -338,11 +339,17 @@ li {
   }
 }
 
+
+
+
+/* #######################TABLET STYLING######################## */
+
+
 @media screen and (min-width: 750px) {
   .latestnews {
     margin-top: 7%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
   }
 
@@ -354,11 +361,10 @@ li {
   .latestnews .img6,
   .latestnews .img7,
   .latestnews .img8 {
-    min-height: 77px;
-    min-width: 77px;
+    flex: 30%;
+    width: 100%;
     background-size: cover;
     background-position: 50%;
-    margin-right: 10px;
   }
 
   .latestnews .img1 {
@@ -397,13 +403,18 @@ li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    /* align-content: space-between; */
   }
 
   .latestnews .cards {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 15px;
-    max-width: 200px;
+    margin-right: 3%;
+    min-height: 25vw;
+    max-width: 30%;
+    
   }
 
   .latestnews .title {
