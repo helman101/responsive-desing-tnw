@@ -443,7 +443,179 @@ li {
 
 
 
+/* ########################## */
 
+/* ##### POST SECTION ##### */
+
+/* ########################## */
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.posts article {
+  width: 100%;
+}
+.posts .cards {
+  width: 100%;
+  height: 25rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: white;
+}
+
+.posts h2{
+  color:  #f42;
+  margin: 20px 20px;
+}
+
+.post-1 {
+  background:
+    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(./../assets/images/Elon-Musk-candy-Wonka-hed-736x552.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+.post-2 {
+  background:
+    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(./../assets/images/YouTubes-mobile-app.png) 50% no-repeat;
+  background-size: cover;
+}
+
+.post-3 {
+  background:
+    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(./../assets/images/header-image-Apple-Watch-design-840x628.png) 50% no-repeat;
+  background-size: cover;
+}
+
+.post-4 {
+  background:
+    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(./../assets/images/image-7-5-840x628.png) 50% no-repeat;
+  background-size: cover;
+}
+
+.post-5 {
+  background:
+    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(./../assets/images/Untitled-design-13-840x628.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+.post-6 {
+  background:
+    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(./../assets/images/mixed-reality-spatial-computing-gq-840x628.png) 50% no-repeat;
+  background-size: cover;
+}
+
+.post-7 {
+  background:
+    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(./../assets/images/tesla-nhtsa-investigation-car-cooling-pipes-fix-broken-la-ti.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+.post-8 {
+  background:
+    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(./../assets/images/hummer-ev-future-car-love-hate-next-gmc-gm-ultium-1200x900.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+.post-9 {
+  background:
+    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(./../assets/images/reddit-deleted-posts-comments-threads-736x552.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+.latest {
+  width: 100vw;
+  display: flex;
+  margin: 0 auto;
+}
+
+.latest div {
+  width: 82%;
+  background-color: rgb(255, 216, 194);
+  padding: 10px 14px 0;
+  color: #f42;
+}
+
+.back-1 {
+  background-image: url(/assets/images/bitcoin-thief.jpg);
+}
+
+.back-2 {
+  background-image: url(/assets/images/header-image-microsoft-office-ipad-apps.png);
+}
+
+.back-3 {
+  background-image: url(/assets/images/header-image-measure-peoples-height-iphone-12-pro-LIDAR.png);
+}
+
+.back-4 {
+  background-image: url(/assets/images/image-6-5.png);
+}
+
+.back-5 {
+  background-image: url(/assets/images/card-v-card-bank-account-multiplayer-game.png);
+}
+
+.back-6 {
+  background-image: url(/assets/images/data.jpg);
+}
+
+.back-7 {
+  background-image: url(/assets/images/uber-amsterdam-british-drivers-employee-gdpr-data-car-court-.jpg);
+}
+
+.back-8 {
+  background-image: url(/assets/images/Amazon-Rivian-electric-delivery-van.jpg);
+}
+
+.back-9 {
+  background-image: url(/assets/images/Snag_1385ac7a.png);
+}
+
+.lat-img {
+  background-position: 50%;
+  background-size: cover;
+  width: 96px;
+  height: 96px;
+  display: block;
+}
+
+.lat-li {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.lat-li a{
+  color: gray;
+}
+
+
+.lat-li li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+
+.lat-li li {
+  margin: 30px 20px;
+}
 
 
 
