@@ -3,7 +3,7 @@ a {
 }
 
 main {
-  margin: 20px;
+  margin: 30px;
 }
 
 @font-face {
@@ -143,7 +143,7 @@ li {
 }
 
 .dashboard .cards {
-  width: 98%;
+  width: 100%;
   height: 30%;
   margin: 0 auto;
   display: flex;
@@ -280,10 +280,6 @@ li {
   margin-top: 15px;
 }
 
-.latestnews div {
-  margin-left: 10px;
-}
-
 .latestnews .title {
   color: black;
   font-weight: bold;
@@ -311,6 +307,8 @@ li {
   list-style: none;
   line-height: 18px !important;
   list-style-type: none;
+  margin-top: 5px;
+  font-size: small;
 }
 
 .latestnews li {
@@ -319,8 +317,7 @@ li {
 }
 
 .orange-headings {
-  text-decoration: none;
-  font-weight: bolder;
+  text-decoration: none; /* changed by bash */
   color: tomato;
 }
 
@@ -349,11 +346,11 @@ li {
 
 /* ##### LATEST FUNDING SECTION ##### */
 
-/* ########################## ####### */
+/* ################################## */
 
 .latestfunding {
   margin-top: 7%;
-  margin-left: 10px;
+  margin-bottom: 7%;
   display: flex;
   flex-direction: column;
 }
@@ -427,7 +424,7 @@ li {
 .latestfunding .cards .field i,
 .latestfunding .cards .field span {
   font-size: small;
-  color: #333;
+  color: #555;
   padding: 7px;
 }
 
@@ -462,16 +459,12 @@ li {
   width: 100%;
   height: 25rem;
   margin: 0 auto;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   text-decoration: none;
   color: white;
-}
-
-.posts h2 {
-  color: #f42;
-  margin: 20px 20px;
 }
 
 .post-1 {
@@ -540,11 +533,11 @@ li {
 .latest {
   width: 100%;
   display: flex;
-  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .latest div {
-  width: 82%;
+  width: 100%;
   background-color: rgb(255, 216, 194);
   padding: 10px 14px 0;
   color: #f42;
@@ -589,7 +582,7 @@ li {
 .lat-img {
   background-position: 50%;
   background-size: cover;
-  width: 96px;
+  min-width: 96px;
   height: 96px;
   display: block;
 }
@@ -621,6 +614,136 @@ li {
 
 
 
+
+/* ################################ */
+
+/* ##### LATEST DEALS SECTION ##### */
+
+/* ################################ */
+
+.latestdeals {
+  margin-top: 7%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
+}
+
+.latestdeals .heading {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latestdeals .img1,
+.latestdeals .img2,
+.latestdeals .img3,
+.latestdeals .img4,
+.latestdeals .img5,
+.latestdeals .img6,
+.latestdeals .img7,
+.latestdeals .img8 {
+  height: 77px;
+  width: 77px;
+  background-size: cover;
+}
+
+.latestdeals .img1 {
+  background-image: url('./../assets/images/latestdeals_img1.jpg');
+}
+
+.latestdeals .img2 {
+  background-image: url('./../assets/images/latestdeals_img2.jpg');
+}
+
+.latestdeals .img3 {
+  background-image: url('./../assets/images/latestdeals_img3.jpg');
+}
+
+.latestdeals .img4 {
+  background-image: url('./../assets/images/latestdeals_img4.jpg');
+}
+
+.latestdeals .img5 {
+  background-image: url('./../assets/images/latestdeals_img5.jpg');
+}
+
+.latestdeals .img6 {
+  background-image: url('./../assets/images/latestdeals_img6.jpg');
+}
+
+.latestdeals .img7 {
+  background-image: url('./../assets/images/latestdeals_img7.jpg');
+}
+
+.latestdeals .img8 {
+  background-image: url('./../assets/images/latestdeals_img8.jpg');
+}
+
+.latestdeals .cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-left: 0;
+}
+
+.latestdeals div {
+  margin-left: 10px;
+}
+
+.latestdeals .title {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.latestdeals .title:hover {
+  color: tomato;
+  cursor: pointer;
+}
+
+.latestdeals .credits,
+.latestdeals li {
+  color: black;
+  text-decoration: none;
+}
+
+.latestdeals .credits:hover {
+  color: #555;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.latestdeals ul {
+  list-style: none;
+  line-height: 18px !important;
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.latestdeals li {
+  float: left;
+  margin-right: 10px;
+}
+
+.latestdeals li:first-child {
+  color: #aaa;
+  font-size: small;
+  text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* ########################## */
 
 /* ##### FOOTER SECTION ##### */
@@ -646,7 +769,7 @@ li {
 .social {
   margin-top: 10px;
   height: 50px;
-  width: 300px;
+  min-width: 400px;
 }
 
 .social ul {
