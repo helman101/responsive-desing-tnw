@@ -1176,8 +1176,6 @@ li {
   }
 }
 
-
-
 @media screen and (min-width: 1024px) {
   .latestdeals {
     margin-top: 7%;
@@ -1452,9 +1450,9 @@ li {
     height: 15rem;
   }
 
-  .lat-li li{
+  .lat-li li {
     font-size: 0.8rem;
-    margin: 20px 20px;
+    /* margin: 20px 20px; */
     color: black;
   }
 
@@ -1524,9 +1522,9 @@ li {
     height: 15rem;
   }
 
-  .lat-li li{
+  .lat-li li {
     font-size: 0.8rem;
-    margin: 20px 20px;
+    /* margin: 20px 20px; */
     color: black;
   }
 
