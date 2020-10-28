@@ -9,16 +9,16 @@ main {
 .main-flex {
   display: flex;
   flex-direction: column;
-  align-items:center ;
+  align-items: center;
 }
 
 @media screen and (min-width: 1024px) {
-.latestnews,
-.latestfunding,
-.posts,
-.latestdeals {
-  max-width: 1150px;
-}
+  .latestnews,
+  .latestfunding,
+  .posts,
+  .latestdeals {
+    max-width: 1150px;
+  }
 }
 
 @font-face {
@@ -255,6 +255,7 @@ li {
   .latestnews .img8 {
     min-height: 77px;
     min-width: 77px;
+    margin-right: 10px;
     background-size: cover;
     background-position: 50%;
   }
@@ -265,7 +266,6 @@ li {
 
   .latestnews .img2 {
     background-image: url('./../assets/images/agile-marketing-gq-540x270.png');
-    
   }
 
   .latestnews .img3 {
@@ -358,7 +358,6 @@ li {
 
 /* #######################TABLET STYLING######################## */
 
-
 @media screen and (min-width: 750px) {
   .latestnews {
     margin-top: 7%;
@@ -379,6 +378,7 @@ li {
     background-position: 50%;
     min-height: 100px;
     max-height: 135px;
+
     /* width: 270px; */
   }
 
@@ -427,7 +427,6 @@ li {
     margin-top: 25px;
     min-height: 20vw;
     max-width: 32%;
-    
   }
 
   .latestnews .title {
@@ -490,7 +489,6 @@ li {
 
 
 /* #######################DESKTOP STYLING######################## */
-
 
 @media screen and (min-width: 1024px) {
   .latestnews {
@@ -743,6 +741,7 @@ li {
 
 .posts article {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .posts .cards {
@@ -828,9 +827,9 @@ li {
 
 .latest div {
   width: 100%;
-  background-color: rgb(255, 216, 194);
+  background-color: #fff4f2;
   padding: 10px 14px 0;
-  color: #f42;
+  color: tomato;
 }
 
 .back-1 {
@@ -878,7 +877,6 @@ li {
 }
 
 .lat-li {
-  margin: 20px auto;
   width: 100%;
 }
 
@@ -908,10 +906,14 @@ li {
 }
 
 .lat-li li {
-  margin: 30px 20px;
+  /* margin: 30px 20px; */
+  padding: 10px;
+  border-bottom: #eee solid 0.1rem;
 }
 
-
+.lat-p {
+  font-weight: bold;
+}
 
 
 
