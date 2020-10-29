@@ -1350,7 +1350,7 @@ li {
   flex-direction: column;
   flex-grow: 1;
   background-color: #131313;
-  height: 200px;
+  height: 160px;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -1407,8 +1407,8 @@ li {
 }
 
 .social-icon {
-  width: 20px;
-  padding: 10px;
+  width: 16px;
+  padding: 12px;
 }
 
 .bottombar div {
