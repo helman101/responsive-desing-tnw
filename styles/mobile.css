@@ -100,8 +100,6 @@ li {
   font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
 }
 
-
-
 /* ########################## */
 
 /* ##### NAVBAR SECTION ##### */
@@ -256,7 +254,6 @@ li {
   margin-right: 5px;
 }
 
-
 /* ############################ TABLET SCREEN ########################## */
 @media screen and (min-width: 768px) {
   .black-nav {
@@ -359,11 +356,6 @@ li {
     height: 75vh;
   }
 }
-
-
-
-
-
 
 /* ############################### */
 
@@ -527,7 +519,6 @@ li {
   }
 }
 
-
 /* #######################DESKTOP STYLING######################## */
 
 @media screen and (min-width: 1024px) {
@@ -543,17 +534,6 @@ li {
     padding-right: 0;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* ################################## */
 
@@ -668,8 +648,6 @@ li {
   }
 }
 
-
-
 /* #######################TABLET STYLING######################## */
 
 @media screen and (min-width: 768px) {
@@ -701,8 +679,6 @@ li {
   }
 }
 
-
-
 /* #######################DESKTOP STYLING######################## */
 
 @media screen and (min-width: 1024px) {
@@ -733,11 +709,6 @@ li {
     display: block;
   }
 }
-
-
-
-
-
 
 /* ########################## */
 
@@ -943,8 +914,6 @@ li {
   }
 }
 
-
-
 /* ################################ */
 
 /* ##### LATEST DEALS SECTION ##### */
@@ -1116,12 +1085,6 @@ li {
     padding-right: 0;
   }
 }
-
-
-
-
-
-
 
 /* ########################## */
 
