@@ -6,11 +6,17 @@
 
 
 
-![screenshot](./assets/screenshot.png)
+![screenshot](.assets/screenshot-desktop.png)
+
 Desktop UI
 
-![screenshot](./assets/screenshot-tab.png)
+![screenshot](.assets/screenshot-tab.png)
+
 Tablet UI
+
+![screenshot](.assets/screenshot-phone.png)
+
+Phone UI
 
 ## Built With
 
