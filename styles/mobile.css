@@ -1294,4 +1294,12 @@ li {
 
 .bottom-icon {
   height: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .bottombar div {
+    display: flex;
+    flex-direction: row;
+  }
 }
