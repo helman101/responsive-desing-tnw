@@ -403,7 +403,7 @@ li {
 
 /* #######################TABLET STYLING######################## */
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .black-nav {
     padding-left: 20px;
     visibility: visible;
@@ -876,7 +876,7 @@ li {
 
 /* #######################TABLET STYLING######################## */
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .latestfunding {
     width: 100%;
     margin-top: 7%;
@@ -1435,7 +1435,7 @@ li {
 }
 
 /* ########################### TABLET STYLING ############################ */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .latestdeals {
     margin-top: 7%;
     display: flex;
@@ -1776,7 +1776,7 @@ li {
   height: 10px;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .dashboard {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
