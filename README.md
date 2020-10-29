@@ -4,16 +4,21 @@
 
 > Creating a responsive clone of TNW (thenextweb.com) website. Projects includes differnet stylings of screens i.e. Moble UI, Tablet UI, Desktop UI. Dynamic images and content.
 
-![screenshot](./assets/screenshot.png)
-![screenshot](./assets/screenshot-tab.png)
 
-Additional description about the project and its features.
+
+![screenshot](./assets/screenshot.png)
+Desktop UI
+
+![screenshot](./assets/screenshot-tab.png)
+Tablet UI
 
 ## Built With
 
 - HTML
 - CSS
 - Font Awesome Icons
+- Linters
+- Gitflows
 
 ## Live Demo
 
