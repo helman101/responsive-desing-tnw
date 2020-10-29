@@ -29,13 +29,13 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Andres**
 
 - GitHub: [@githubhandle](https://github.com/helman101)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
+👤 **Adeel**
 
 - GitHub: [@githubhandle](https://github.com/bashforger)
 - Twitter: [@twitterhandle](https://twitter.com/bashforge)
