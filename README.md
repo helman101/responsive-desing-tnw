@@ -4,7 +4,8 @@
 
 > Creating a responsive clone of TNW (thenextweb.com) website. Projects includes differnet stylings of screens i.e. Moble UI, Tablet UI, Desktop UI. Dynamic images and content.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/screenshot.png)
+![screenshot](./assets/screenshot-tab.png)
 
 Additional description about the project and its features.
 
@@ -17,15 +18,6 @@ Additional description about the project and its features.
 ## Live Demo
 
 [Live Demo Link](https://helman101.github.io/responsive-desing-tnw/)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
@@ -44,6 +36,15 @@ To get a local copy up and running follow these simple example steps.
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+- Forking the project
+- Cloning the project to your local machine
+- cd into the project directory
+- Run git checkout -b your-branch-name
+- Make your contributions
+- Push your branch up to your forked repository
+- Open a Pull Request with a detailed description to the development branch of the original project for a review
+
 
 Feel free to check the [issues page](issues/).
 
