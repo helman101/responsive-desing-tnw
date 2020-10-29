@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TNW-Responsive-Clone
 
-> One paragraph statement about the project.
+> Creating a responsive clone of TNW (thenextweb.com) website. Projects includes differnet stylings of screens i.e. Moble UI, Tablet UI, Desktop UI. Dynamic images and content.
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,9 +10,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Font Awesome Icons
 
 ## Live Demo
 
@@ -27,33 +27,19 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@githubhandle](https://github.com/helman101)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/bashforger)
+- Twitter: [@twitterhandle](https://twitter.com/bashforge)
+- LinkedIn: [LinkedIn](https://linkedin.com/Muhammad-adeel-danish)
 
 ## 🤝 Contributing
 
@@ -67,9 +53,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- A great learning experience. 
 
 ## 📝 License
 
