@@ -843,6 +843,10 @@ li {
     font-family: 'Avalon', sans-serif;
   }
 
+  .lat-p:hover {
+    cursor: pointer;
+  }
+
   .lat-tlt {
     font-family: 'Shentox', sans-serif;
   }
@@ -905,6 +909,10 @@ li {
   .lat-li a {
     color: rgb(88, 88, 88);
     font-size: small;
+  }
+
+  .lat-li a:hover {
+    color: black;
   }
 
   .lat-li li::before {
