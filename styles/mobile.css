@@ -205,8 +205,6 @@ li {
 }
 
 .dashboard .cards {
-  width: 100%;
-  min-height: 30vh;
   margin: 5px;
   display: flex;
   flex-direction: column;
@@ -403,7 +401,7 @@ li {
 
 /* #######################TABLET STYLING######################## */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .black-nav {
     padding-left: 20px;
     visibility: visible;
@@ -572,6 +570,10 @@ li {
   .nav-menu {
     grid-row: 2/3;
     grid-column: 1/5;
+  }
+
+  .dashboard {
+    height: 75vh;
   }
 
   .latestnews {
@@ -764,6 +766,10 @@ li {
     margin-top: 60px;
   }
 
+  .dashboard .cards{
+    min-height: 30vh;
+  }
+
   .latestfunding {
     width: 100%;
     margin-top: 7%;
@@ -876,7 +882,7 @@ li {
 
 /* #######################TABLET STYLING######################## */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .latestfunding {
     width: 100%;
     margin-top: 7%;
@@ -1435,7 +1441,7 @@ li {
 }
 
 /* ########################### TABLET STYLING ############################ */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .latestdeals {
     margin-top: 7%;
     display: flex;
@@ -1776,12 +1782,17 @@ li {
   height: 10px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .dashboard {
+    height: 75vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
+  }
+
+  .dashboard .cards {
+    margin: 0;
   }
 
   .main-1 .cards-title {
