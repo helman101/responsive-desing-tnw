@@ -27,8 +27,8 @@ main {
   font-style: normal;
   font-weight: 400;
   src:
-    url(/assets/Fonts/ars-maquette-regular.woff) format("woff"),
-    url(/assets/Fonts/ars-maquette-regular.ttf) format("truetype");
+    url(./../assets/fonts/ars-maquette-regular.woff) format("woff"),
+    url(./../assets/fonts/ars-maquette-regular.ttf) format("truetype");
 }
 
 @font-face {
@@ -36,8 +36,8 @@ main {
   font-style: italic;
   font-weight: 400;
   src:
-    url(/assets/Fonts/ars-maquette-regular-italic.woff) format("woff"),
-    url(/assets/Fonts/ars-maquette-regular-italic.ttf) format("truetype");
+    url(./../assets/fonts/ars-maquette-regular-italic.woff) format("woff"),
+    url(./../assets/fonts/ars-maquette-regular-italic.ttf) format("truetype");
 }
 
 @font-face {
@@ -45,8 +45,8 @@ main {
   font-style: normal;
   font-weight: 700;
   src:
-    url(/assets/Fonts/ars-maquette-bold-alt.woff) format("woff"),
-    url(/assets/Fonts/ars-maquette-bold-alt.ttf) format("truetype");
+    url(./../assets/fonts/ars-maquette-bold-alt.woff) format("woff"),
+    url(./../assets/fonts/ars-maquette-bold-alt.ttf) format("truetype");
 }
 
 @font-face {
@@ -54,15 +54,15 @@ main {
   font-style: normal;
   font-weight: 700;
   src:
-    url(/assets/Fonts/avalon-bold.woff) format("woff"),
-    url(/assets/Fonts/avalon-bold.ttf) format("truetype");
+    url(./../assets/fonts/avalon-bold.woff) format("woff"),
+    url(./../assets/fonts/avalon-bold.ttf) format("truetype");
 }
 
 @font-face {
   font-family: 'TNW-Avalon';
   font-style: normal;
   font-weight: 700;
-  src: url(/assets/Fonts/tnw-avalon-bold.ttf);
+  src: url(./../assets/fonts/tnw-avalon-bold.ttf);
 }
 
 @font-face {
@@ -70,15 +70,15 @@ main {
   font-style: normal;
   font-weight: 500;
   src:
-    url(/assets/Fonts/shentox-medium.woff) format("woff"),
-    url(/assets/Fonts/shentox-medium.ttf) format("truetype");
+    url(./../assets/fonts/shentox-medium.woff) format("woff"),
+    url(./../assets/fonts/shentox-medium.ttf) format("truetype");
 }
 
 @font-face {
   font-family: 'Trump';
   font-style: normal;
   font-weight: 400;
-  src: url(/assets/fonts/Trump-Gothic-East-Bold.ttf);
+  src: url(./../assets/fonts/Trump-Gothic-East-Bold.ttf);
 }
 
 @font-face {
@@ -86,8 +86,8 @@ main {
   font-style: normal;
   font-weight: 400;
   src:
-    url(/assets/fonts/graphik/graphik-regular.woff) format("woff"),
-    url(/assets/fonts/graphik/graphik-regular.woff2) format("woff2");
+    url(./../assets/fonts/graphik/graphik-regular.woff) format("woff"),
+    url(./../assets/fonts/graphik/graphik-regular.woff2) format("woff2");
 }
 
 li {
