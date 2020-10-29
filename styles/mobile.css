@@ -830,39 +830,39 @@ li {
   }
 
   .back-1 {
-    background-image: url(/assets/images/bitcoin-thief.jpg);
+    background-image: url(./../assets/images/bitcoin-thief.jpg);
   }
 
   .back-2 {
-    background-image: url(/assets/images/header-image-microsoft-office-ipad-apps.png);
+    background-image: url(./../assets/images/header-image-microsoft-office-ipad-apps.png);
   }
 
   .back-3 {
-    background-image: url(/assets/images/header-image-measure-peoples-height-iphone-12-pro-LIDAR.png);
+    background-image: url(./../assets/images/header-image-measure-peoples-height-iphone-12-pro-LIDAR.png);
   }
 
   .back-4 {
-    background-image: url(/assets/images/image-6-5.png);
+    background-image: url(./../assets/images/image-6-5.png);
   }
 
   .back-5 {
-    background-image: url(/assets/images/card-v-card-bank-account-multiplayer-game.png);
+    background-image: url(./../assets/images/card-v-card-bank-account-multiplayer-game.png);
   }
 
   .back-6 {
-    background-image: url(/assets/images/data.jpg);
+    background-image: url(./../assets/images/data.jpg);
   }
 
   .back-7 {
-    background-image: url(/assets/images/uber-amsterdam-british-drivers-employee-gdpr-data-car-court-.jpg);
+    background-image: url(./../assets/images/uber-amsterdam-british-drivers-employee-gdpr-data-car-court-.jpg);
   }
 
   .back-8 {
-    background-image: url(/assets/images/Amazon-Rivian-electric-delivery-van.jpg);
+    background-image: url(./../assets/images/Amazon-Rivian-electric-delivery-van.jpg);
   }
 
   .back-9 {
-    background-image: url(/assets/images/Snag_1385ac7a.png);
+    background-image: url(./../assets/images/Snag_1385ac7a.png);
   }
 
   .lat-img {
@@ -1266,7 +1266,7 @@ li {
 
   .main-1 {
     background:
-      url(/assets/images/cover-gradient.png) 0 0 no-repeat,
+      url(./../assets/images/cover-gradient.png) 0 0 no-repeat,
       linear-gradient(to top, black, rgba(255, 255, 255, 0)),
       url(./../assets/images/header-image-microsoft-office-ipad-apps.png) 50% 50% no-repeat;
     grid-column: 1/3;
