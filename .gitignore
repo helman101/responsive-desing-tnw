@@ -1,3 +1,6 @@
 node_modules/
 .vscode/
 package-lock.json
+tab.png
+desktop.png
+*.zip
