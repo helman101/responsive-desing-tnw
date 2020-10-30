@@ -605,6 +605,11 @@ li {
     flex-direction: row;
     margin-top: 15px;
   }
+
+  .cards-flex .cards:last-child {
+    visibility: hidden;
+    height: 0;
+  }
 }
 
 /* #######################TABLET STYLING######################## */
@@ -744,7 +749,6 @@ li {
 
   .latestfunding .links-flex a {
     display: inline-block;
-    padding-top: 10px;
   }
 
   .latestfunding .links-flex a:nth-child(2),
@@ -764,6 +768,7 @@ li {
   .latestfunding .options {
     display: inline-block;
     padding-top: 10px;
+    padding-right: 10px;
   }
 
   .latestfunding .cards-flex {
@@ -779,6 +784,11 @@ li {
 
   .latestfunding .cards-flex .cards:last-child {
     display: none;
+  }
+
+  .latestfunding .links-flex {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
   }
 }
 
