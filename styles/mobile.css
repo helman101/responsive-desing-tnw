@@ -420,6 +420,7 @@ li {
 
   .posts .cards {
     height: 15rem;
+    background-size: cover;
   }
 
   .lat-li li {
