@@ -2,7 +2,7 @@
 
 # TNW-Responsive-Clone
 
-> Creating a responsive clone of TNW (thenextweb.com) website. Projects includes differnet stylings of screens i.e. Moble UI, Tablet UI, Desktop UI. Dynamic images and content.
+> Creating a responsive clone of TNW (thenextweb.com) website. Projects includes differnet stylings of screens i.e. Moble UI, Tablet UI, Desktop UI. Dynamic images and content develped using Flex boxes, Grids, Media Queries and Fontawsome Icons. 
 
 
 ## Desktop UI
