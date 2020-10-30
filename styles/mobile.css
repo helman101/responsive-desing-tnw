@@ -6,9 +6,28 @@ main {
   margin: 15px;
 }
 
-.main-flex {
+.d-flex {
   display: flex;
+}
+
+.b-cover {
+  background-size: cover;
+}
+
+.f-column {
   flex-direction: column;
+}
+
+.color-b {
+  color: black;
+  font-weight: bold;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.main-flex {
   align-items: center;
   margin-bottom: 7%;
 }
@@ -109,9 +128,7 @@ li {
 .black-nav {
   visibility: hidden;
   background-color: black;
-  display: flex;
   align-items: center;
-  justify-content: space-between;
   font-size: 0.8rem;
   padding: 5px;
 }
@@ -119,10 +136,6 @@ li {
 .black-nav a {
   color: gray;
   margin-right: 10px;
-}
-
-.black-nav ul {
-  display: flex;
 }
 
 .black-nav li {
@@ -151,7 +164,6 @@ li {
 }
 
 .nav-menu ul {
-  display: flex;
   font-size: 0.8rem;
 }
 
@@ -185,8 +197,6 @@ li {
 .dashboard {
   margin-top: 100px;
   font-family: 'Graphik', Georgia, 'Times New Roman', Times, serif;
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -196,29 +206,26 @@ li {
 
 .dashboard .cards {
   margin: 5px;
-  display: flex;
-  flex-direction: column;
   justify-content: flex-end;
   text-decoration: none;
   color: white;
-  background-size: cover;
 }
 
 .main-1 {
   background:
-    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(./../assets/images/image-gradient.png) 50% 50%,
     url(./../assets/images/header-image-microsoft-office-ipad-apps.png) 50% 50% no-repeat;
 }
 
 .main-2 {
   background:
-    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(./../assets/images/image-gradient.png) 50% 50%,
     url(./../assets/images/tnw2020-feature_img-02.jpg) 50% 50% no-repeat;
 }
 
 .main-3 {
   background:
-    linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+    url(./../assets/images/image-gradient.png) 50% 50%,
     url(./../assets/images/image-8-4-796x417.png) 50% 50% no-repeat;
 }
 
@@ -228,7 +235,6 @@ li {
 }
 
 .data {
-  display: flex;
   list-style: none;
   font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
   font-size: 0.8rem;
@@ -307,8 +313,6 @@ li {
     padding: 0;
     grid-row: 1;
     grid-column: 2;
-    display: flex;
-    align-items: center;
   }
 
   .nav-menu ul {
@@ -332,6 +336,10 @@ li {
 
   .dashboard .cards {
     min-height: 30vh;
+  }
+
+  .cards-flex {
+    display: block;
   }
 }
 
@@ -382,11 +390,6 @@ li {
 
   .main-title {
     visibility: hidden;
-    width: 95%;
-    margin: 6% 2%;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1rem;
   }
 
   .main-title img {
@@ -395,7 +398,7 @@ li {
 
   .main-1 {
     background:
-      linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+      url(./../assets/images/image-gradient.png) 50% 50%,
       url(./../assets/images/header-image-microsoft-office-ipad-apps.png) 50% 50% no-repeat;
     grid-column: 1/3;
     grid-row: 1/3;
@@ -422,7 +425,6 @@ li {
 
   .lat-li li {
     font-size: 0.8rem;
-    color: black;
   }
 
   .latest {
@@ -448,7 +450,6 @@ li {
     margin: 6% 2%;
     position: absolute;
     top: 50px;
-    display: flex;
     font-size: 1rem;
   }
 
@@ -459,7 +460,7 @@ li {
   .main-1 {
     background:
       url(./../assets/images/cover-gradient.png) 0 0 no-repeat,
-      linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+      url(./../assets/images/image-gradient.png) 50% 50%,
       url(./../assets/images/header-image-microsoft-office-ipad-apps.png) 50% 50% no-repeat;
     grid-column: 1/3;
     grid-row: 1/3;
@@ -486,7 +487,6 @@ li {
 
   .lat-li li {
     font-size: 0.8rem;
-    color: black;
   }
 
   .latest {
@@ -535,13 +535,10 @@ li {
 
   .latestnews {
     margin-top: 5%;
-    display: flex;
-    flex-direction: column;
     font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
   }
 
   .latestnews .title {
-    color: black;
     font-weight: bold;
     text-decoration: none;
   }
@@ -606,12 +603,10 @@ li {
     min-height: 77px;
     min-width: 77px;
     margin-right: 10px;
-    background-size: cover;
     background-position: 50%;
   }
 
   .latestnews .cards {
-    display: flex;
     flex-direction: row;
     margin-top: 15px;
   }
@@ -628,22 +623,17 @@ li {
   .latestnews .img6,
   .latestnews .img7,
   .latestnews .img8 {
-    background-size: cover;
     background-position: 50%;
     min-height: 125px;
     max-width: 100%;
   }
 
   .latestnews .cards-flex {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
   }
 
   .latestnews .cards {
-    display: flex;
-    flex-direction: column;
     margin-top: 25px;
     min-height: 20vw;
     max-width: 32%;
@@ -658,8 +648,6 @@ li {
 
 @media screen and (min-width: 1024px) {
   .latestnews .cards {
-    display: flex;
-    flex-direction: column;
     margin-top: 25px;
     min-height: 0;
     max-width: 23%;
@@ -681,8 +669,6 @@ li {
     width: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
-    display: flex;
-    flex-direction: column;
   }
 
   .latestfunding .options {
@@ -715,7 +701,6 @@ li {
   }
 
   .latestfunding .cards .amount p:first-child {
-    color: black;
     font-weight: bold;
   }
 
@@ -727,8 +712,6 @@ li {
   }
 
   .latestfunding .cards .field {
-    display: flex;
-    flex-direction: column;
     padding: 10px;
     border-bottom: #ffebe7 solid 0.3rem;
   }
@@ -761,7 +744,6 @@ li {
 
 @media screen and (max-width: 768px) {
   .latestfunding .links-flex {
-    display: flex;
     flex-direction: column;
   }
 
@@ -778,8 +760,6 @@ li {
   .latestfunding .cards {
     margin-top: 20px;
     margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
   }
 }
 
@@ -791,12 +771,7 @@ li {
     padding-top: 10px;
   }
 
-  .latestfunding .options:hover {
-    color: black;
-  }
-
   .latestfunding .cards-flex {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -805,8 +780,6 @@ li {
     max-width: 32%;
     margin-top: 20px;
     margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
   }
 
   .latestfunding .cards-flex .cards:last-child {
@@ -818,8 +791,7 @@ li {
 
 @media screen and (min-width: 1024px) {
   .latestfunding .heading-links {
-    display: flex;
-    justify-content: space-between;
+    flex-direction: row;
   }
 
   .latestfunding .options:hover {
@@ -827,17 +799,13 @@ li {
   }
 
   .latestfunding .cards-flex {
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
   }
 
   .latestfunding .cards {
     max-width: 23%;
     margin-top: 20px;
     margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
   }
 
   .latestfunding .cards-flex .cards:last-child {
@@ -853,9 +821,7 @@ li {
 
 @media screen and (min-width: 0) {
   .posts {
-    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
   }
 
   .posts article {
@@ -868,8 +834,6 @@ li {
     height: 25rem;
     margin: 0 auto;
     margin-top: 20px;
-    display: flex;
-    flex-direction: column;
     justify-content: flex-end;
     text-decoration: none;
     color: white;
@@ -877,72 +841,61 @@ li {
 
   .post-1 {
     background:
-      linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+      url(./../assets/images/image-gradient.png) 50% 50%,
       url(./../assets/images/Elon-Musk-candy-Wonka-hed-736x552.jpg) 50% no-repeat;
-    background-size: cover;
   }
 
   .post-2 {
     background:
-      linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+      url(./../assets/images/image-gradient.png) 50% 50%,
       url(./../assets/images/YouTubes-mobile-app.png) 50% no-repeat;
-    background-size: cover;
   }
 
   .post-3 {
     background:
-      linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+      url(./../assets/images/image-gradient.png) 50% 50%,
       url(./../assets/images/header-image-Apple-Watch-design-840x628.png) 50% no-repeat;
-    background-size: cover;
   }
 
   .post-4 {
     background:
-      linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+      url(./../assets/images/image-gradient.png) 50% 50%,
       url(./../assets/images/image-7-5-840x628.png) 50% no-repeat;
-    background-size: cover;
   }
 
   .post-5 {
     background:
-      linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+      url(./../assets/images/image-gradient.png) 50% 50%,
       url(./../assets/images/Untitled-design-13-840x628.jpg) 50% no-repeat;
-    background-size: cover;
   }
 
   .post-6 {
     background:
-      linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+      url(./../assets/images/image-gradient.png) 50% 50%,
       url(./../assets/images/mixed-reality-spatial-computing-gq-840x628.png) 50% no-repeat;
-    background-size: cover;
   }
 
   .post-7 {
     background:
-      linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+      url(./../assets/images/image-gradient.png) 50% 50%,
       url(./../assets/images/tesla-nhtsa-investigation-car-cooling-pipes-fix-broken-la-ti.jpg) 50% no-repeat;
-    background-size: cover;
   }
 
   .post-8 {
     background:
-      linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+      url(./../assets/images/image-gradient.png) 50% 50%,
       url(./../assets/images/hummer-ev-future-car-love-hate-next-gmc-gm-ultium-1200x900.jpg) 50% no-repeat;
-    background-size: cover;
   }
 
   .post-9 {
     background:
-      linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+      url(./../assets/images/image-gradient.png) 50% 50%,
       url(./../assets/images/reddit-deleted-posts-comments-threads-736x552.jpg) 50% no-repeat;
-    background-size: cover;
   }
 
   .latest {
     width: 100%;
     height: 96px;
-    display: flex;
-    justify-content: space-between;
   }
 
   .lat-p {
@@ -1002,7 +955,6 @@ li {
 
   .lat-img {
     background-position: 50%;
-    background-size: cover;
     min-width: 96px;
     height: 96px;
     display: block;
@@ -1055,11 +1007,6 @@ li {
 
   .main-title {
     visibility: hidden;
-    width: 95%;
-    margin: 6% 2%;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1rem;
   }
 
   .main-title img {
@@ -1068,10 +1015,11 @@ li {
 
   .main-1 {
     background:
-      linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+      url(./../assets/images/image-gradient.png) 50% 50%,
       url(./../assets/images/header-image-microsoft-office-ipad-apps.png) 50% 50% no-repeat;
     grid-column: 1/3;
     grid-row: 1/3;
+    background-size: cover;
   }
 
   .main-2 {
@@ -1095,7 +1043,6 @@ li {
 
   .lat-li li {
     font-size: 0.8rem;
-    color: black;
   }
 
   .latest {
@@ -1121,7 +1068,6 @@ li {
     margin: 6% 2%;
     position: absolute;
     top: 50px;
-    display: flex;
     font-size: 1rem;
   }
 
@@ -1132,10 +1078,11 @@ li {
   .main-1 {
     background:
       url(./../assets/images/cover-gradient.png) 0 0 no-repeat,
-      linear-gradient(to top, black, rgba(255, 255, 255, 0)),
+      url(./../assets/images/image-gradient.png) 50% 50%,
       url(./../assets/images/header-image-microsoft-office-ipad-apps.png) 50% 50% no-repeat;
     grid-column: 1/3;
     grid-row: 1/3;
+    background-size: cover;
   }
 
   .main-2 {
@@ -1159,7 +1106,6 @@ li {
 
   .lat-li li {
     font-size: 0.8rem;
-    color: black;
   }
 
   .latest {
@@ -1209,34 +1155,22 @@ li {
   .latestdeals {
     margin-top: 5%;
     width: 100%;
-    display: flex;
-    flex-direction: column;
     font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
   }
 
   .latestdeals .heading {
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
   }
 
   .latestdeals .title {
-    color: black;
-    font-weight: bold;
     text-decoration: none;
   }
 
   .latestdeals .title:hover {
     color: tomato;
     cursor: pointer;
-  }
-
-  .latestdeals .credits,
-  .latestdeals li {
-    color: black;
-    text-decoration: none;
   }
 
   .latestdeals .credits:hover {
@@ -1277,12 +1211,10 @@ li {
     min-height: 77px;
     min-width: 77px;
     margin-right: 10px;
-    background-size: cover;
     background-position: 50%;
   }
 
   .latestdeals .cards {
-    display: flex;
     flex-direction: row;
     margin-top: 15px;
     margin-left: 0;
@@ -1299,22 +1231,17 @@ li {
   .latestdeals .img6,
   .latestdeals .img7,
   .latestdeals .img8 {
-    background-size: cover;
     background-position: 50%;
     width: 100%;
     min-height: 125px;
   }
 
   .latestdeals .cards-flex {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
   }
 
   .latestdeals .cards {
-    display: flex;
-    flex-direction: column;
     margin-top: 25px;
     min-height: 2vw;
     max-width: 32%;
@@ -1327,8 +1254,6 @@ li {
 
 @media screen and (min-width: 1024px) {
   .latestdeals .cards {
-    display: flex;
-    flex-direction: column;
     margin-top: 25px;
     min-height: 2vw;
     max-width: 23%;
@@ -1346,8 +1271,6 @@ li {
 /* ########################## */
 
 .footer {
-  display: flex;
-  flex-direction: column;
   flex-grow: 1;
   background-color: #131313;
   height: 160px;
@@ -1373,7 +1296,6 @@ li {
 
 .links ul,
 .social ul {
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -1417,8 +1339,6 @@ li {
   height: 100%;
   text-align: center;
   color: gray;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -1430,7 +1350,6 @@ li {
 
 @media screen and (min-width: 768px) {
   .bottombar div {
-    display: flex;
     flex-direction: row;
   }
 }
