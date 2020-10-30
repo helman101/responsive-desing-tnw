@@ -207,7 +207,6 @@ li {
 .dashboard .cards {
   margin: 5px;
   justify-content: flex-end;
-  text-decoration: none;
   color: white;
 }
 
@@ -540,7 +539,6 @@ li {
 
   .latestnews .title {
     font-weight: bold;
-    text-decoration: none;
   }
 
   .latestnews .title:hover {
@@ -551,12 +549,10 @@ li {
   .latestnews .credits,
   .latestnews li {
     color: #aaa;
-    text-decoration: none;
   }
 
   .latestnews .credits:hover {
     color: #555;
-    text-decoration: none;
     cursor: pointer;
   }
 
@@ -574,13 +570,11 @@ li {
   }
 
   .orange-headings {
-    text-decoration: none;
     color: tomato;
   }
 
   .orange-headings:hover {
     color: black;
-    text-decoration: none;
     cursor: pointer;
   }
 
@@ -835,7 +829,6 @@ li {
     margin: 0 auto;
     margin-top: 20px;
     justify-content: flex-end;
-    text-decoration: none;
     color: white;
   }
 
@@ -1164,10 +1157,6 @@ li {
     align-items: center;
   }
 
-  .latestdeals .title {
-    text-decoration: none;
-  }
-
   .latestdeals .title:hover {
     color: tomato;
     cursor: pointer;
@@ -1175,7 +1164,6 @@ li {
 
   .latestdeals .credits:hover {
     color: #555;
-    text-decoration: none;
     cursor: pointer;
   }
 
@@ -1319,7 +1307,6 @@ li {
   font-family: 'Shentox', sans-serif;
   font-size: 0.9rem;
   list-style: none;
-  text-decoration: none;
   color: #aaa;
   margin: 5px;
 }
