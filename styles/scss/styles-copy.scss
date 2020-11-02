@@ -1,6 +1,6 @@
-$ars-maquette-font: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
+$ars-maquette-font: 'ARS Maquette', 'Helvetica', georgia, 'Times New Roman', times, serif;
 $shentox-font: 'Shentox', sans-serif;
-$graphik-font: 'Graphik', Georgia, 'Times New Roman', Times, serif;
+$graphik-font: 'Graphik', georgia, 'Times New Roman', times, serif;
 $avalon-font: 'Avalon', sans-serif;
 $ligth-gray: #aaa;
 $dark-gray: #555;
@@ -87,62 +87,62 @@ $img-dark-gradient: url(./../assets/images/image-gradient.png) 50% 50%;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: $ars-maquette-font;  
+  margin: 0;
+  padding: 0;
+  font-family: $ars-maquette-font;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-  }
-  
-  main {
-    margin: 15px;
-  }
-  
-  .d-flex {
-    display: flex;
-  }
-  
-  .b-cover {
-    background-size: cover;
-  }
-  
-  .f-column {
-    flex-direction: column;
-  }
-  
-  .color-b {
-    color: black;
-    font-weight: bold;
-  }
-  
-  .jc-sb {
-    justify-content: space-between;
-  }
-  
-  .main-flex {
-    align-items: center;
-    margin-bottom: 7%;
-  }
-  
+  text-decoration: none;
+}
+
+main {
+  margin: 15px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.b-cover {
+  background-size: cover;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.color-b {
+  color: black;
+  font-weight: bold;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.main-flex {
+  align-items: center;
+  margin-bottom: 7%;
+}
 
 .nav-bar {
-    position: fixed;
-    top: 0;
-    background-color: white;
-    width: 100%;
-    height: 60px;
-    display: grid;
-    grid-template-columns: 1fr repeat(3, 3fr);
-    grid-template-rows: 30px 50px;
-    z-index: 10;
-    @media screen and (max-width: 768px) {
-        grid-template-columns: 100px 3fr;
-        grid-template-rows: 50px;
-    }
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  height: 60px;
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 3fr);
+  grid-template-rows: 30px 50px;
+  z-index: 10;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 100px 3fr;
+    grid-template-rows: 50px;
+  }
 }

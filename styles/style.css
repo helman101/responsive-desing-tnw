@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/*# sourceMappingURL=style.scss.map */
 .latestfunding .cards .summary a, .latestfunding .cards .field span, .latestfunding .cards .field i {
   font-size: small;
   color: #555;
@@ -56,7 +55,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "ARS Maquette", "Helvetica", Georgia, "Times New Roman", Times, serif;
+  font-family: "ARS Maquette", "Helvetica", georgia, "Times New Roman", times, serif;
 }
 
 li {
@@ -186,6 +185,34 @@ main {
   }
 }
 
+.lat-li {
+  width: 100%;
+}
+.lat-li li {
+  padding: 10px;
+  border-bottom: #eee solid 0.1rem;
+}
+@media only screen and (min-width: 769px) {
+  .lat-li li {
+    font-size: 0.8rem;
+  }
+}
+.lat-li li::before {
+  content: "•";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.lat-li a {
+  color: #aaa;
+  font-size: small;
+}
+.lat-li a:hover {
+  color: black;
+}
+
 .nav-menu {
   padding: 15px 5px;
   background-color: white;
@@ -258,7 +285,7 @@ main {
 
 .dashboard {
   margin-top: 100px;
-  font-family: "Graphik", Georgia, "Times New Roman", Times, serif;
+  font-family: "Graphik", georgia, "Times New Roman", times, serif;
   justify-content: space-around;
 }
 @media screen and (max-width: 768px) {
@@ -289,6 +316,11 @@ main {
   .dashboard .cards {
     margin: 0;
   }
+}
+
+.cards-title {
+  font-size: 1.2rem;
+  font-family: "Avalon", sans-serif;
 }
 
 .main-1 {
@@ -364,17 +396,12 @@ main {
 
 .data {
   list-style: none;
-  font-family: "ARS Maquette", "Helvetica", Georgia, "Times New Roman", Times, serif;
+  font-family: "ARS Maquette", "Helvetica", georgia, "Times New Roman", times, serif;
   font-size: 0.8rem;
   color: gray;
 }
 .data .data li {
   margin-right: 10px;
-}
-
-.cards-title {
-  font-size: 1.2rem;
-  font-family: "Avalon", sans-serif;
 }
 
 .cards-article {
@@ -385,18 +412,6 @@ main {
 .cards-icon {
   width: 12px;
   margin-right: 5px;
-}
-
-@media screen and (max-width: 768px) {
-  .cards-flex {
-    display: block;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cards-flex .cards:last-child {
-    visibility: hidden;
-    height: 0;
-  }
 }
 
 .posts {
@@ -437,6 +452,18 @@ main {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .cards-flex {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cards-flex .cards:last-child {
+    visibility: hidden;
+    height: 0;
+  }
+}
+
 .post-1 {
   background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/Elon-Musk-candy-Wonka-hed-736x552.jpg) 50% no-repeat;
 }
@@ -471,34 +498,6 @@ main {
 
 .post-9 {
   background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/reddit-deleted-posts-comments-threads-736x552.jpg) 50% no-repeat;
-}
-
-.lat-li {
-  width: 100%;
-}
-.lat-li li {
-  padding: 10px;
-  border-bottom: #eee solid 0.1rem;
-}
-@media only screen and (min-width: 769px) {
-  .lat-li li {
-    font-size: 0.8rem;
-  }
-}
-.lat-li li::before {
-  content: "•";
-  color: red;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
-.lat-li a {
-  color: #aaa;
-  font-size: small;
-}
-.lat-li a:hover {
-  color: black;
 }
 
 .lat-p {
@@ -578,7 +577,7 @@ main {
 
 .latestnews {
   margin-top: 5%;
-  font-family: "ARS Maquette", "Helvetica", Georgia, "Times New Roman", Times, serif;
+  font-family: "ARS Maquette", "Helvetica", georgia, "Times New Roman", times, serif;
 }
 .latestnews .img1 {
   background-image: url("./../assets/images/uber-amsterdam-british-drivers-employee-gdpr-data-car-court-.jpg");
@@ -921,7 +920,7 @@ main {
 .latestdeals {
   margin-top: 5%;
   width: 100%;
-  font-family: "ARS Maquette", "Helvetica", Georgia, "Times New Roman", Times, serif;
+  font-family: "ARS Maquette", "Helvetica", georgia, "Times New Roman", times, serif;
 }
 @media screen and (min-width: 1024px) {
   .latestdeals {
@@ -1201,7 +1200,7 @@ main {
 }
 
 .bottombar div {
-  font-family: "ARS Maquette", "Helvetica", Georgia, "Times New Roman", Times, serif;
+  font-family: "ARS Maquette", "Helvetica", georgia, "Times New Roman", times, serif;
   font-size: 0.8rem;
   height: 100%;
   text-align: center;
