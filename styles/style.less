@@ -1,0 +1,983 @@
+@font-face {
+	font-family: 'ARS Maquette';
+	font-style: normal;
+	font-weight: 400;
+	src: url(./../assets/fonts/ars-maquette-regular.woff) format("woff"), url(./../assets/fonts/ars-maquette-regular.ttf) format("truetype");
+}
+@font-face {
+	font-family: 'ARS Maquette';
+	font-style: italic;
+	font-weight: 400;
+	src: url(./../assets/fonts/ars-maquette-regular-italic.woff) format("woff"), url(./../assets/fonts/ars-maquette-regular-italic.ttf) format("truetype");
+}
+@font-face {
+	font-family: 'ARS Maquette';
+	font-style: normal;
+	font-weight: 700;
+	src: url(./../assets/fonts/ars-maquette-bold-alt.woff) format("woff"), url(./../assets/fonts/ars-maquette-bold-alt.ttf) format("truetype");
+}
+@font-face {
+	font-family: 'Avalon';
+	font-style: normal;
+	font-weight: 700;
+	src: url(./../assets/fonts/avalon-bold.woff) format("woff"), url(./../assets/fonts/avalon-bold.ttf) format("truetype");
+}
+@font-face {
+	font-family: 'TNW-Avalon';
+	font-style: normal;
+	font-weight: 700;
+	src: url(./../assets/fonts/tnw-avalon-bold.ttf);
+}
+@font-face {
+	font-family: 'Shentox';
+	font-style: normal;
+	font-weight: 500;
+	src: url(./../assets/fonts/shentox-medium.woff) format("woff"), url(./../assets/fonts/shentox-medium.ttf) format("truetype");
+}
+@font-face {
+	font-family: 'Trump';
+	font-style: normal;
+	font-weight: 400;
+	src: url(./../assets/fonts/Trump-Gothic-East-Bold.ttf);
+}
+@font-face {
+	font-family: 'Graphik';
+	font-style: normal;
+	font-weight: 400;
+	src: url(./../assets/fonts/graphik/graphik-regular.woff) format("woff"), url(./../assets/fonts/graphik/graphik-regular.woff2) format("woff2");
+}
+a {
+	text-decoration: none;
+}
+main {
+	margin: 15px;
+}
+.d-flex {
+	display: flex;
+}
+.b-cover {
+	background-size: cover;
+}
+.f-column {
+	flex-direction: column;
+}
+.color-b {
+	color: black;
+	font-weight: bold;
+}
+.jc-sb {
+	justify-content: space-between;
+}
+.main-flex {
+	align-items: center;
+	margin-bottom: 7%;
+}
+li {
+	list-style: none;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-bar {
+	position: fixed;
+	top: 0;
+	background-color: white;
+	width: 100%;
+	height: 60px;
+	display: grid;
+	grid-template-columns: 1fr repeat(3, 3fr);
+	grid-template-rows: 30px 50px;
+	z-index: 10;
+	.nav-logo {
+		background-color: black;
+	}
+	.black-nav {
+		visibility: hidden;
+		background-color: black;
+		align-items: center;
+		font-size: 0.8rem;
+		padding: 5px;
+		a {
+			color: gray;
+			margin-right: 10px;
+		}
+		li {
+			margin-right: 5px;
+		}
+	}
+	.nav-menu {
+		background-color: white;
+		padding: 15px 5px;
+		ul {
+			font-size: 0.8rem;
+			a {
+				color: rgb(143, 143, 143);
+				font-family: 'Shentox', sans-serif;
+				margin-right: 20px;
+			}
+		}
+		img {
+			width: 20px;
+			padding: 10px;
+			border-left: #eee solid 1px;
+		}
+		div {
+			position: absolute;
+		}
+	}
+}
+
+
+.menu-icon {
+	visibility: hidden;
+}
+.logo {
+	height: 35%;
+	margin: 15%;
+}
+.dashboard {
+	margin-top: 100px;
+	font-family: 'Graphik', Georgia, 'Times New Roman', Times, serif;
+	justify-content: space-around;
+	.cards {
+		margin: 5px;
+		justify-content: flex-end;
+		color: white;
+	}
+}
+.main-title {
+	visibility: hidden;
+}
+.main-1 {
+	background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/header-image-microsoft-office-ipad-apps.png) 50% 50% no-repeat;
+}
+.main-2 {
+	background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/tnw2020-feature_img-02.jpg) 50% 50% no-repeat;
+}
+.main-3 {
+	background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/image-8-4-796x417.png) 50% 50% no-repeat;
+}
+.cards-list {
+	list-style: none;
+	margin: 2%;
+}
+.data {
+	list-style: none;
+	font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
+	font-size: 0.8rem;
+	color: gray;
+	li {
+		margin-right: 10px;
+	}
+}
+.cards-title {
+	font-size: 1.2rem;
+	font-family: 'Avalon', sans-serif;
+}
+.cards-article {
+	font-size: 0.9rem;
+	font-family: 'Shentox', sans-serif;
+}
+.cards-icon {
+	width: 12px;
+	margin-right: 5px;
+}
+.footer {
+	flex-grow: 1;
+	background-color: #131313;
+	height: 160px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.bottombar {
+	background-color: #000;
+	height: 120px;
+	width: 100%;
+	div {
+		font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
+		font-size: 0.8rem;
+		height: 100%;
+		text-align: center;
+		color: gray;
+		align-items: center;
+		justify-content: center;
+	}
+}
+.links {
+	ul {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	li {
+		a {
+			font-family: 'Shentox', sans-serif;
+			font-size: 0.9rem;
+			list-style: none;
+			color: #aaa;
+			margin: 5px;
+			&:hover {
+				color: white;
+			}
+		}
+	}
+}
+.social {
+	ul {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	li {
+		background-color: rgb(66, 66, 66);
+		background-size: 45%;
+		border-radius: 30px;
+		height: 40px;
+		width: 40px;
+		margin: 5px;
+		&:hover {
+			background-color: rgba(66, 66, 66, 0);
+			border: rgb(66, 66, 66) solid 1px;
+		}
+	}
+}
+.social-icon {
+	width: 16px;
+	padding: 12px;
+}
+.bottom-icon {
+	height: 10px;
+	cursor: pointer;
+}
+@media screen and (min-width: 1024px) {
+	.latestnews {
+		max-width: 1150px;
+		.cards {
+			margin-top: 25px;
+			min-height: 0;
+			max-width: 23%;
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+	}
+	.latestfunding {
+		max-width: 1150px;
+		.heading-links {
+			flex-direction: row;
+		}
+		.options {
+			&:hover {
+				color: black;
+			}
+		}
+		.cards-flex {
+			flex-direction: row;
+			.cards {
+				&:last-child {
+					display: block;
+				}
+			}
+		}
+		.cards {
+			max-width: 23%;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+	}
+	.posts {
+		max-width: 1150px;
+	}
+	.latestdeals {
+		max-width: 1150px;
+		.cards {
+			margin-top: 25px;
+			min-height: 2vw;
+			max-width: 23%;
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+	}
+	.black-nav {
+		visibility: visible;
+		grid-row: 1/2;
+		grid-column: 1/5;
+	}
+	.nav-logo {
+		visibility: hidden;
+	}
+	.nav-menu {
+		grid-row: 2/3;
+		grid-column: 1/5;
+	}
+	.dashboard {
+		height: 75vh;
+	}
+}
+@media screen and (min-width: 768px) {
+	.black-nav {
+		padding-left: 20px;
+		visibility: visible;
+		grid-row: 1/2;
+		grid-column: 2/5;
+	}
+	.nav-logo {
+		visibility: visible;
+		grid-row: 1/3;
+		grid-column: 1;
+		img {
+			margin-top: 25px;
+			width: 70%;
+		}
+	}
+	.nav-menu {
+		padding-left: 20px;
+		grid-row: 2/3;
+		grid-column: 2/5;
+	}
+	.latestnews {
+		.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8  {
+			background-position: 50%;
+			min-height: 125px;
+			max-width: 100%;
+		}
+		.cards-flex {
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		.cards {
+			margin-top: 25px;
+			min-height: 20vw;
+			max-width: 32%;
+			&:last-child {
+				padding-right: 34%;
+			}
+		}
+	}
+	.latestfunding {
+		.options {
+			display: inline-block;
+			padding-top: 10px;
+			padding-right: 10px;
+		}
+		.cards-flex {
+			flex-direction: row;
+			justify-content: space-between;
+			.cards {
+				&:last-child {
+					display: none;
+				}
+			}
+		}
+		.cards {
+			max-width: 32%;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+		.links-flex {
+			flex-direction: row-reverse;
+			justify-content: flex-end;
+		}
+	}
+	.latestdeals {
+		.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
+			background-position: 50%;
+			width: 100%;
+			min-height: 125px;
+		}
+		.cards-flex {
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		.cards {
+			margin-top: 25px;
+			min-height: 2vw;
+			max-width: 32%;
+			&:last-child {
+				padding-right: 34%;
+			}
+		}
+	}
+	.bottombar {
+		div {
+			flex-direction: row;
+		}
+	}
+}
+@media screen and (max-width: 768px) {
+	.nav-bar {
+		grid-template-columns: 100px 3fr;
+		grid-template-rows: 50px;
+	}
+	.black-nav {
+		grid-row: 2;
+		grid-column: 2;
+		visibility: hidden;
+	}
+	.nav-logo {
+		visibility: visible;
+		grid-row: 1;
+		grid-column: 1;
+		img {
+			width: 70%;
+		}
+	}
+	.nav-menu {
+		padding: 0;
+		grid-row: 1;
+		grid-column: 2;
+		ul {
+			visibility: hidden;
+			width: 0;
+			height: 0;
+		}
+		div {
+			top: 10px;
+			right: 10px;
+		}
+	}
+	.menu-icon {
+		visibility: visible;
+	}
+	.dashboard {
+		margin-top: 60px;
+		.cards {
+			min-height: 30vh;
+		}
+	}
+	.cards-flex {
+		display: block;
+		.cards {
+			&:last-child {
+				visibility: hidden;
+				height: 0;
+			}
+		}
+	}
+	.latestnews {
+		.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
+			min-height: 77px;
+			min-width: 77px;
+			margin-right: 10px;
+			background-position: 50%;
+		}
+		.cards {
+			flex-direction: row;
+			margin-top: 15px;
+		}
+	}
+	.latestfunding {
+		.links-flex {
+			flex-direction: column;
+			a {
+				display: inline-block;
+				&:nth-child(2) {
+					display: none;
+				}
+				&:nth-child(4) {
+					display: none;
+				}
+			}
+		}
+		.cards {
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+	}
+	.latestdeals {
+		.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
+			min-height: 77px;
+			min-width: 77px;
+			margin-right: 10px;
+			background-position: 50%;
+		}
+		.cards {
+			flex-direction: row;
+			margin-top: 15px;
+			margin-left: 0;
+		}
+	}
+}
+@media only screen and (min-width: 768px) {
+	.dashboard {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-gap: 10px;
+		height: 75vh;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-gap: 10px;
+		.cards {
+			margin: 0;
+			margin: 0;
+		}
+	}
+	.main-1 {
+		.cards-title {
+			font-size: 2rem;
+			font-size: 2rem;
+		}
+		background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/header-image-microsoft-office-ipad-apps.png) 50% 50% no-repeat;
+		grid-column: 1/3;
+		grid-row: 1/3;
+		background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/header-image-microsoft-office-ipad-apps.png) 50% 50% no-repeat;
+		grid-column: 1/3;
+		grid-row: 1/3;
+		background-size: cover;
+	}
+	.main-title {
+		visibility: hidden;
+		visibility: hidden;
+		img {
+			height: 80px;
+			height: 80px;
+		}
+	}
+	.main-2 {
+		grid-row: 1;
+		grid-column: 3;
+		grid-row: 1;
+		grid-column: 3;
+	}
+	.main-3 {
+		grid-row: 2;
+		grid-column: 3;
+		grid-row: 2;
+		grid-column: 3;
+	}
+	.posts {
+		article {
+			width: 47%;
+			margin: 10px;
+			width: 47%;
+			margin: 10px;
+		}
+		.cards {
+			height: 15rem;
+			background-size: cover;
+			height: 15rem;
+		}
+	}
+	.lat-li {
+		li {
+			font-size: 0.8rem;
+			font-size: 0.8rem;
+		}
+	}
+	.latest {
+		font-size: 0.8rem;
+		font-size: 0.8rem;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.dashboard {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-gap: 10px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-gap: 10px;
+	}
+	.main-1 {
+		.cards-title {
+			font-size: 3rem;
+			font-size: 3rem;
+		}
+		background: url(./../assets/images/cover-gradient.png) 0 0 no-repeat, url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/header-image-microsoft-office-ipad-apps.png) 50% 50% no-repeat;
+		grid-column: 1/3;
+		grid-row: 1/3;
+		background: url(./../assets/images/cover-gradient.png) 0 0 no-repeat, url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/header-image-microsoft-office-ipad-apps.png) 50% 50% no-repeat;
+		grid-column: 1/3;
+		grid-row: 1/3;
+		background-size: cover;
+	}
+	.main-title {
+		visibility: visible;
+		width: 60%;
+		margin: 6% 2%;
+		position: absolute;
+		top: 50px;
+		font-size: 1rem;
+		visibility: visible;
+		width: 60%;
+		margin: 6% 2%;
+		position: absolute;
+		top: 50px;
+		font-size: 1rem;
+		img {
+			height: 80px;
+			height: 80px;
+		}
+	}
+	.main-2 {
+		grid-row: 1;
+		grid-column: 3;
+		grid-row: 1;
+		grid-column: 3;
+	}
+	.main-3 {
+		grid-row: 2;
+		grid-column: 3;
+		grid-row: 2;
+		grid-column: 3;
+	}
+	.posts {
+		article {
+			width: 30%;
+			margin: 10px;
+			width: 30%;
+			margin: 10px;
+		}
+		.cards {
+			height: 15rem;
+			height: 15rem;
+		}
+	}
+	.lat-li {
+		li {
+			font-size: 0.8rem;
+			font-size: 0.8rem;
+		}
+	}
+	.latest {
+		font-size: 0.9rem;
+		font-size: 0.9rem;
+	}
+}
+@media screen and (min-width: 0) {
+	.latestnews {
+		.img1 {
+			background-image: url('./../assets/images/uber-amsterdam-british-drivers-employee-gdpr-data-car-court-.jpg');
+		}
+		.img2 {
+			background-image: url('./../assets/images/agile-marketing-gq-540x270.png');
+		}
+		.img3 {
+			background-image: url('./../assets/images/Destruction-Allstars-516x270.jpg');
+		}
+		.img4 {
+			background-image: url('./../assets/images/YouTubes-mobile-app.png');
+		}
+		.img5 {
+			background-image: url('./../assets/images/image-7-5-840x628.png');
+		}
+		.img6 {
+			background-image: url('./../assets/images/Elon-Musk-candy-Wonka-hed-736x552.jpg');
+		}
+		.img7 {
+			background-image: url('./../assets/images/new-ai.png');
+		}
+		.img8 {
+			background-image: url('./../assets/images/MIT-Roboat-II-Close-e1603453521207.jpeg');
+		}
+		margin-top: 5%;
+		font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
+		.title {
+			font-weight: bold;
+			&:hover {
+				color: tomato;
+				cursor: pointer;
+			}
+		}
+		.credits {
+			color: #aaa;
+			&:hover {
+				color: #555;
+				cursor: pointer;
+			}
+		}
+		li {
+			color: #aaa;
+			float: left;
+			margin-right: 10px;
+		}
+		ul {
+			list-style: none;
+			line-height: 18px !important;
+			list-style-type: none;
+			margin-top: 5px;
+			font-size: small;
+		}
+	}
+	.orange-headings {
+		color: tomato;
+		&:hover {
+			color: black;
+			cursor: pointer;
+		}
+	}
+	.main-headings {
+		font-weight: 900;
+		font-size: 25px;
+	}
+	.latestfunding {
+		width: 100%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		.options {
+			color: tomato;
+			&:hover {
+				color: black;
+			}
+		}
+		.cards {
+			img {
+				padding: 10px;
+				height: 60px;
+				width: 60px;
+				position: absolute;
+			}
+			.name {
+				padding: 10px;
+				padding-left: 80px;
+				background-color: tomato;
+				color: white;
+				font-weight: bold;
+			}
+			.amount {
+				padding: 15px;
+				padding-left: 80px;
+				background-color: #ffebe7;
+				p {
+					&:first-child {
+						font-weight: bold;
+					}
+					&:last-child {
+						color: grey;
+						font-weight: normal;
+						font-size: small;
+						text-transform: uppercase;
+					}
+				}
+			}
+			.field {
+				padding: 10px;
+				border-bottom: #ffebe7 solid 0.3rem;
+				background-color: #fffaf8;
+				padding: 15px;
+				i {
+					font-size: small;
+					color: #555;
+					color: black;
+				}
+				span {
+					font-size: small;
+					color: #555;
+					&:hover {
+						color: black;
+					}
+				}
+			}
+			.summary {
+				background-color: #fffaf8;
+				padding: 15px;
+				a {
+					font-size: small;
+					color: #555;
+					color: black;
+				}
+				span {
+					color: grey;
+				}
+			}
+		}
+	}
+	.posts {
+		flex-wrap: wrap;
+		article {
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		.cards {
+			width: 100%;
+			height: 25rem;
+			margin: 0 auto;
+			margin-top: 20px;
+			justify-content: flex-end;
+			color: white;
+		}
+	}
+	.post-1 {
+		background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/Elon-Musk-candy-Wonka-hed-736x552.jpg) 50% no-repeat;
+	}
+	.post-2 {
+		background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/YouTubes-mobile-app.png) 50% no-repeat;
+	}
+	.post-3 {
+		background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/header-image-Apple-Watch-design-840x628.png) 50% no-repeat;
+	}
+	.post-4 {
+		background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/image-7-5-840x628.png) 50% no-repeat;
+	}
+	.post-5 {
+		background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/Untitled-design-13-840x628.jpg) 50% no-repeat;
+	}
+	.post-6 {
+		background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/mixed-reality-spatial-computing-gq-840x628.png) 50% no-repeat;
+	}
+	.post-7 {
+		background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/tesla-nhtsa-investigation-car-cooling-pipes-fix-broken-la-ti.jpg) 50% no-repeat;
+	}
+	.post-8 {
+		background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/hummer-ev-future-car-love-hate-next-gmc-gm-ultium-1200x900.jpg) 50% no-repeat;
+	}
+	.post-9 {
+		background: url(./../assets/images/image-gradient.png) 50% 50%, url(./../assets/images/reddit-deleted-posts-comments-threads-736x552.jpg) 50% no-repeat;
+	}
+	.latest {
+		width: 100%;
+		height: 96px;
+		div {
+			width: 100%;
+			background-color: #fff4f2;
+			padding: 10px 14px 0;
+			color: tomato;
+		}
+	}
+	.lat-p {
+		font-family: 'Avalon', sans-serif;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	.lat-tlt {
+		font-family: 'Shentox', sans-serif;
+	}
+	.back-1 {
+		background-image: url(./../assets/images/bitcoin-thief.jpg);
+	}
+	.back-2 {
+		background-image: url(./../assets/images/header-image-microsoft-office-ipad-apps.png);
+	}
+	.back-3 {
+		background-image: url(./../assets/images/header-image-measure-peoples-height-iphone-12-pro-LIDAR.png);
+	}
+	.back-4 {
+		background-image: url(./../assets/images/image-6-5.png);
+	}
+	.back-5 {
+		background-image: url(./../assets/images/card-v-card-bank-account-multiplayer-game.png);
+	}
+	.back-6 {
+		background-image: url(./../assets/images/data.jpg);
+	}
+	.back-7 {
+		background-image: url(./../assets/images/uber-amsterdam-british-drivers-employee-gdpr-data-car-court-.jpg);
+	}
+	.back-8 {
+		background-image: url(./../assets/images/Amazon-Rivian-electric-delivery-van.jpg);
+	}
+	.back-9 {
+		background-image: url(./../assets/images/Snag_1385ac7a.png);
+	}
+	.lat-img {
+		background-position: 50%;
+		min-width: 96px;
+		height: 96px;
+		display: block;
+	}
+	.lat-li {
+		width: 100%;
+		a {
+			color: rgb(88, 88, 88);
+			font-size: small;
+			&:hover {
+				color: black;
+			}
+		}
+		li {
+			&::before {
+				content: "\2022";
+				color: red;
+				font-weight: bold;
+				display: inline-block;
+				width: 1em;
+				margin-left: -1em;
+			}
+			padding: 10px;
+			border-bottom: #eee solid 0.1rem;
+		}
+	}
+	.latestdeals {
+		.img1 {
+			background-image: url('./../assets/images/latestdeals_img1.jpg');
+		}
+		.img2 {
+			background-image: url('./../assets/images/latestdeals_img2.jpg');
+		}
+		.img3 {
+			background-image: url('./../assets/images/latestdeals_img3.jpg');
+		}
+		.img4 {
+			background-image: url('./../assets/images/latestdeals_img4.jpg');
+		}
+		.img5 {
+			background-image: url('./../assets/images/latestdeals_img5.jpg');
+		}
+		.img6 {
+			background-image: url('./../assets/images/latestdeals_img6.jpg');
+		}
+		.img7 {
+			background-image: url('./../assets/images/latestdeals_img7.jpg');
+		}
+		.img8 {
+			background-image: url('./../assets/images/latestdeals_img8.jpg');
+		}
+		margin-top: 5%;
+		width: 100%;
+		font-family: 'ARS Maquette', 'Helvetica', Georgia, 'Times New Roman', Times, serif;
+		.heading {
+			padding: 0;
+			margin: 0;
+			align-items: center;
+		}
+		.title {
+			&:hover {
+				color: tomato;
+				cursor: pointer;
+			}
+		}
+		.credits {
+			&:hover {
+				color: #555;
+				cursor: pointer;
+			}
+		}
+		ul {
+			list-style: none;
+			line-height: 18px !important;
+			list-style-type: none;
+			margin-top: 5px;
+		}
+		li {
+			float: left;
+			margin-right: 10px;
+			&:first-child {
+				color: #aaa;
+				font-size: small;
+				text-decoration: line-through;
+			}
+		}
+	}
+}
+@media screen and (min-width: 400px) {
+	.social {
+		margin-top: 10px;
+		height: 50px;
+		min-width: 400px;
+	}
+	.links {
+		margin-top: 10px;
+		height: 50px;
+		min-width: 400px;
+	}
+}
