@@ -109,7 +109,7 @@ li {
   margin-right: 5px;
 }
 .nav-bar .nav-menu {
-  background-color: #555151;
+  background-color: white;
   padding: 15px 5px;
 }
 .nav-bar .nav-menu ul {
@@ -127,8 +127,6 @@ li {
 }
 .nav-bar .nav-menu div {
   position: absolute;
-  top: 35px;
-  right: -30px;
 }
 .menu-icon {
   visibility: hidden;
